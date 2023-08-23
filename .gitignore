@@ -21,3 +21,33 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Ignorar arquivos de configuração do sistema
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignorar arquivos de compilação e build
+build/
+dist/
+*.css
+*.js
+
+# Ignorar arquivos de configuração do IDE
+.vscode/
+.idea/
+
+# Arquivos gerados durante o desenvolvimento
+*.log
+*.bak
+*.swp
+
+# Ignorar arquivos de cache
+.cache/
+
+# Dependências específicas do ambiente
+.npmrc
+.yarnrc
+
+# Ignorar diretórios de testes
+__tests__/
