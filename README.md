@@ -2,7 +2,7 @@
 
 ## Visão Geral
 
-O **SISCOMFE** é um sistema de comércio de produtos completo que inclui tanto o *front-end* quanto o *back-end*. Esse projeto é voltado ao back-end, criando uma API que para listar, criar, atualizar e excluir ofertas e produtos, bem como consultar as melhores ofertas disponíveis.
+O **SISCOMFE** é um sistema de comércio de produtos completo que inclui tanto o *front-end* quanto o *back-end*. Esse projeto é voltado ao front-end, criando uma aplicação web com REACT que para listar, criar, atualizar e excluir ofertas e produtos, bem como consultar as melhores ofertas disponíveis.
 
 ## Requisitos
 
@@ -11,32 +11,31 @@ Antes de iniciar o projeto, certifique-se de que você tenha as seguintes tecnol
 - **Node.js**
 - **PostgreSQL**
 - **Git**
+- **Back-end do Projeto**
 
 ## Configuração do Projeto
 
 1. Clone o repositório do GitHub:
 
 <pre>
-$ git clone https://github.com/seu-usuario/siscomfe.git
+$ git clone https://github.com/magalhaesedc/siscomfe-frontend.git
 </pre>
 
 2. Acesse o diretório do projeto:
 
-3. Instale as dependências do Node.js:
+3. Instale as dependências do React:
 
 <pre>
 $ npm install
 </pre>
 
-4. Configure o banco de dados PostgreSQL de acordo com suas credenciais no arquivo `/repositories/conexao.js`.
-
-5. Inicie o servidor:
+4. Inicie o servidor:
 
 <pre>
 $ npm start
 </pre>
 
-6. O servidor estará disponível em `http://localhost:3000`.
+5. O servidor estará disponível em `http://localhost:3000`.
 
 ## Contribuindo
 
